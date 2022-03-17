@@ -1,0 +1,129 @@
+@media screen and (min-width:800px) {
+    .box_contents .ttt {
+        width: 60%;
+        height: 250px;
+        margin: 3% auto;
+    }
+    .left_img {
+        float: left;
+        width: 30%;
+        height: 100%;
+        text-align: center;
+        font-size: 25px;
+        border: 0;
+        text-shadow: 3px 0 3px rgba(0, 0, 0, 0.7);
+    }
+    .right_img {
+        text-align: center;
+        line-height: 250px;
+        font-size: 70px;
+        color: #fff;
+    }
+    .buzhidao {
+        transition: all 1s;
+    }
+    .buzhidao:hover {
+        transform: translateY(-30px);
+    }
+}
+@media screen and (max-width:800px) {
+    .box_contents .ttt {
+        width: 70%;
+        height: 200px;
+        margin-top: 10%;
+        margin-left: 25%;
+    }
+    .left_img {
+        float: left;
+        width: 30%;
+        height: 100%;
+        border: 0;
+    }
+    .right_img {
+        text-align: center;
+        line-height: 200px;
+        font-size: 35px;
+        color: #fff;
+    }
+    .buzhidao {
+        display: none;
+    }
+    .ttt li {
+        width: 100%;
+        overflow: hidden;
+    }
+}
+#home {
+    background-color: orange;
+}
+img {
+    border: 0px;
+}
+span {
+    font-size: 12px;
+}
+h4 {
+    margin-top: 20px;
+    font-size: 12px;
+    font-weight: normal;
+}
+.buzhidao {
+    position: fixed;
+    width: 16%;
+    height: 40%;
+    background-color: rgba(0, 0, 0, 0.9);
+    right: 9%;
+    top: 60%;
+    overflow: hidden;
+    border: 2px solid #000;
+}
+.left_img img {
+    width: 100%;
+    height: 100%;
+}
+.box_contents .ttt li{
+    height: 100%;
+    width: 100%;
+    background-color: transparent;
+    border: 1px solid #fff;
+}
+.buzhidao :nth-child(1) {
+    float: left;
+    font-size: 25px;
+}
+.buzhidao :nth-child(2){
+    float: right;
+}
+.dont .ttt li {
+    margin: 3% auto;
+    list-style: none;
+}
+.box_contents .buzhidao hr {
+    background-color: black!important;
+    height: 2px!important;
+    width: 2000px!important;
+    border: 0;
+}
+p {
+    float: left;
+    color: #fff;
+}
+h4 {
+    color: #fff;
+}
+.box_contents .buzhidao ul li a{
+    font-size: 12px;
+    color: #888;
+    transition: all .7s;
+}
+.box_contents .buzhidao ul li a:hover {
+    color: skyblue;
+}
+.box_contents .buzhidao ul li {
+    margin-top: 2px;
+    display: inline-block;
+}
+.box_contents .aboutme li {
+    font-size: 12px;
+    color: #888;
+}

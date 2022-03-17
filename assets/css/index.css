@@ -1,0 +1,71 @@
+@media screen and (min-width:800px) {
+    .header {
+        display: none;
+    }
+    .phone_img {
+        display: none;
+    }
+}
+@media screen and (max-width:800px) {
+    .header {
+        background-color: transparent;
+        width: 80%;
+        text-align: center;
+        margin-top: 0px;
+        margin-left: 25%;
+    }
+    .header p {
+        font-size: 25px;
+        color: #fff;
+    }
+    .header h1 {
+        font-size: 75px;
+        margin-bottom: 40%;
+        color: #fff;
+    }
+    .btnp input{
+        width: 150px;
+        height: 50px;
+        margin-top: 30%;
+        font-size: 30px;
+        border-radius: 3%;
+        color: rgb(34, 34, 34);
+        background-color: transparent;
+        border:4px solid #fff;
+    }
+    .time {
+        display: block;
+        text-align: center;
+        font-size: 40px;
+        color: #fff;
+        margin-right: -20%;
+        text-shadow:0 2px 6px rgba(0,0,0,.16);
+    }
+    .time #hours_min {
+        display: none;
+        margin-right: -20%;
+    }
+    .box_content {
+        display: block;
+    }
+    .box_content img {
+        width: 100%;
+        height: 100%;
+    }
+    .box_content {
+        width: 90%;
+        /* background-color: #fff; */
+        margin: 4% auto;
+        overflow: hidden;
+        box-shadow: 5px 5px 3px rgba(0,0,0,.5);
+        border-radius: 3%;
+        position: relative;
+        margin-left: 20%;
+    }
+    .phone_img {
+        display: block;
+    }
+    .change_img {
+        display: none;
+    }
+}
